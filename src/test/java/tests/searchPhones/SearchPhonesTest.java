@@ -6,7 +6,7 @@ import tests.base.BaseTest;
 
 import static constants.Constants.Urls.ALLO_HOME_PAGE;
 
-public class SearchPhones extends BaseTest {
+public class SearchPhonesTest extends BaseTest {
 
 
     @Test
