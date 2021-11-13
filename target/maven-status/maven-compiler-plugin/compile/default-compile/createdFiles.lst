@@ -1,0 +1,8 @@
+constants\Constants$Urls.class
+pages\searchResultPage\SearchResultPage.class
+pages\base\BasePage.class
+common\CommonActions.class
+common\Config.class
+constants\Constants$TimeoutVariable.class
+constants\Constants.class
+pages\alloHome\AlloHomePage.class
