@@ -1,2 +1,5 @@
-tests\base\BaseTest.class
-tests\searchPhones\SearchPhones.class
+tests\API\getUsers\ListUsersTest.class
+tests\UI\base\BaseTest.class
+tests\UI\base\searchPhones\SearchPhones.class
+tests\API\getUsers\BaseTest.class
+FirstAPI.class
