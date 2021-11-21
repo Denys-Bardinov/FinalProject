@@ -1,11 +1,13 @@
 package api;
 
+import org.checkerframework.checker.units.qual.A;
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.given;
 
 
 public class Reqres {
@@ -20,14 +22,28 @@ public class Reqres {
                 .then().log().all()
                 .extract().body().jsonPath().getList("data", UserData.class);
         List<String> avatars = users.stream().map(UserData::getAvatar).collect(Collectors.toList());
-        List<String> ids = users.stream().map(x->x.getId().toString()).collect(Collectors.toList());
+        List<String> ids = users.stream().map(x -> x.getId().toString()).collect(Collectors.toList());
         for (int i = 0; i < avatars.size(); i++) {
             Assert.assertTrue(avatars.get(i).contains(ids.get(i)));
         }
-
-
-
-
-
     }
+
+    public void successRegtTest() {
+        Specification.installSpecification(Specification.requestSpec(URL), Specification.responseSpecOk200());
+        Integer id = 4;
+        String token = "QpwL5tke4Pnpja7X4";
+        Register user = new Register("eve.holt@reqres.in", "pistol");
+        SuccessReg successReg = given()
+                .body(user)
+                .when()
+                .post("api/register")
+                .then().log().all()
+                .extract().as(SuccessReg.class);
+        Assert.assertNotNull(successReg.getId());
+        Assert.assertNotNull(successReg.getToken());
+        Assert.assertEquals(id, successReg.getId());
+        Assert.assertEquals(token, successReg.getToken());
+    }
+
+
 }
