@@ -9,5 +9,7 @@ UI\pages\alloHome\AlloHomePage.class
 UI\constants\Constants$Urls.class
 UI\constants\Constants.class
 UI\pages\searchResultPage\SearchResultPage.class
+api\data\UnSuccessReg.class
 api\Specification.class
 api\data\SuccessReg.class
+api\data\Register.class

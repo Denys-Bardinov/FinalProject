@@ -1,11 +1,13 @@
+D:\FinalProject\src\main\java\api\data\Register.java
 D:\FinalProject\src\main\java\api\Reqres.java
 D:\FinalProject\src\main\java\api\Specification.java
 D:\FinalProject\src\main\java\api\data\UserData.java
 D:\FinalProject\src\main\java\UI\pages\searchResultPage\SearchResultPage.java
 D:\FinalProject\src\main\java\UI\constants\Constants.java
 D:\FinalProject\src\main\java\UI\pages\alloHome\AlloHomePage.java
+D:\FinalProject\src\main\java\UI\common\CommonActions.java
+D:\FinalProject\src\main\java\api\data\UnSuccessReg.java
 D:\FinalProject\src\main\java\api\data\SuccessReg.java
 D:\FinalProject\src\main\java\UI\pages\base\BasePage.java
 D:\FinalProject\src\main\java\api\Register.java
-D:\FinalProject\src\main\java\UI\common\CommonActions.java
 D:\FinalProject\src\main\java\UI\common\Config.java

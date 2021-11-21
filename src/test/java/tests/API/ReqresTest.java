@@ -12,4 +12,9 @@ public class ReqresTest extends BaseTest {
     void checkSuccesReg() {
         reqres.successRegtTest();
     }
+
+    @Test
+    void checkUnsuccessReg() {
+        reqres.unSuccessReg();
+    }
 }

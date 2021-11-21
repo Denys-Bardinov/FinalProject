@@ -1,8 +1,10 @@
 package api;
 
 import api.data.SuccessReg;
+import api.data.UnSuccessReg;
 import api.data.UserData;
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -45,5 +47,17 @@ public class Reqres {
         Assert.assertEquals(token, successReg.getToken());
     }
 
+    public void unSuccessReg() {
+        Specification.installSpecification(Specification.requestSpec(URL), Specification.responseSpecError400());
+
+        Register user = new Register("sydney@fife", "");
+
+        UnSuccessReg unSuccessReg = given()
+                .body(user)
+                .post("api/register")
+                .then().log().all()
+                .extract().as(UnSuccessReg.class);
+        Assert.assertEquals("Missing password", unSuccessReg.getError());
+    }
 
 }
