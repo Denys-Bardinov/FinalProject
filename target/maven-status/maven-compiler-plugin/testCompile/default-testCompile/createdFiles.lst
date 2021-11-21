@@ -1,4 +1,4 @@
-tests\API\getUsers\ListUsersTest.class
+tests\API\BaseTest.class
 tests\UI\base\BaseTest.class
 tests\UI\base\searchPhones\SearchPhonesTest.class
-tests\API\getUsers\BaseTest.class
+tests\API\ReqresTest.class

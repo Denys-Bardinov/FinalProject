@@ -1,12 +1,11 @@
 UI\constants\Constants$TimeoutVariable.class
 UI\pages\base\BasePage.class
-API\pages\BasePage.class
 UI\common\CommonActions.class
-API\common\CommonActions.class
-API\constantURI\ListURI.class
+api\UserData.class
+api\Reqres.class
 UI\common\Config.class
 UI\pages\alloHome\AlloHomePage.class
 UI\constants\Constants$Urls.class
 UI\constants\Constants.class
 UI\pages\searchResultPage\SearchResultPage.class
-API\pages\ListUsers.class
+api\Specification.class
