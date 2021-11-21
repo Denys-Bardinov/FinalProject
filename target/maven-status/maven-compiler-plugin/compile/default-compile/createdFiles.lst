@@ -1,9 +1,8 @@
 UI\constants\Constants$TimeoutVariable.class
 api\Register.class
 UI\pages\base\BasePage.class
-api\SuccessReg.class
 UI\common\CommonActions.class
-api\UserData.class
+api\data\UserData.class
 api\Reqres.class
 UI\common\Config.class
 UI\pages\alloHome\AlloHomePage.class
@@ -11,3 +10,4 @@ UI\constants\Constants$Urls.class
 UI\constants\Constants.class
 UI\pages\searchResultPage\SearchResultPage.class
 api\Specification.class
+api\data\SuccessReg.class

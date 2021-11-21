@@ -1,8 +1,8 @@
 package api;
 
-import org.checkerframework.checker.units.qual.A;
+import api.data.SuccessReg;
+import api.data.UserData;
 import org.junit.Assert;
-import org.junit.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
