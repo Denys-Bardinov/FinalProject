@@ -1,8 +1,6 @@
 package api;
 
-import api.data.SuccessReg;
-import api.data.UnSuccessReg;
-import api.data.UserData;
+import api.data.*;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -58,6 +56,41 @@ public class Reqres {
                 .then().log().all()
                 .extract().as(UnSuccessReg.class);
         Assert.assertEquals("Missing password", unSuccessReg.getError());
+    }
+
+    public void sortedYearsTest() {
+        Specification.installSpecification(Specification.requestSpec(URL), Specification.responseSpecOk200());
+        List<ColorsData> colors = given()
+                .when()
+                .get("api/unkown")
+                .then().log().all()
+                .extract().body().jsonPath().getList("data", ColorsData.class);
+        List<Integer> years = colors.stream().map(ColorsData::getYear).collect(Collectors.toList());
+        List<Integer> sortedYears = years.stream().sorted().collect(Collectors.toList());
+        Assert.assertEquals(sortedYears, years);
+    }
+
+
+    public void deleteUserTest() {
+        Specification.installSpecification(Specification.requestSpec(URL), Specification.responseSpecUnique(204));
+        given()
+                .when()
+                .delete("api/users/2")
+                .then().log().all();
+    }
+
+
+    public void createUserTest() {
+        Specification.installSpecification(Specification.requestSpec(URL), Specification.responseSpecOk200());
+        CreationUser user = new CreationUser("morpheus", "zion resident");
+        CreationUserRespons creationUserRespons = given()
+                .body(user)
+                .when()
+                .put("api/users/2")
+                .then().log().all()
+                .extract().as(CreationUserRespons.class);
+        Assert.assertEquals("morpheus", creationUserRespons.getName());
+        Assert.assertEquals("zion resident", creationUserRespons.getJob());
     }
 
 }

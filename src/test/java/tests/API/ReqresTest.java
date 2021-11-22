@@ -9,12 +9,27 @@ public class ReqresTest extends BaseTest {
     }
 
     @Test
-    void checkSuccesReg() {
+    public void checkSuccesReg() {
         reqres.successRegtTest();
     }
 
     @Test
-    void checkUnsuccessReg() {
+    public void checkUnsuccessReg() {
         reqres.unSuccessReg();
+    }
+
+    @Test
+    public void checkSortedYears() {
+        reqres.sortedYearsTest();
+    }
+
+    @Test
+    public void checkDeletingUser() {
+        reqres.deleteUserTest();
+    }
+
+    @Test
+    public void checkCreationUser() {
+        reqres.createUserTest();
     }
 }

@@ -1,8 +1,11 @@
 UI\constants\Constants$TimeoutVariable.class
+api\data\CreationUser.class
 api\Register.class
 UI\pages\base\BasePage.class
 UI\common\CommonActions.class
+api\data\ColorsData.class
 api\data\UserData.class
+api\data\CreationUserRespons.class
 api\Reqres.class
 UI\common\Config.class
 UI\pages\alloHome\AlloHomePage.class

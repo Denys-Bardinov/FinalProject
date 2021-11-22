@@ -16,6 +16,12 @@ public class Specification {
                 .build();
     }
 
+    public static ResponseSpecification responseSpecUnique(int status) {
+        return new ResponseSpecBuilder()
+                .expectStatusCode(status)
+                .build();
+    }
+
     public static ResponseSpecification responseSpecOk200() {
         return new ResponseSpecBuilder()
                 .expectStatusCode(200)
