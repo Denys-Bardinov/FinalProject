@@ -1,17 +1,17 @@
 package api.data;
 
-public class CreationUserRespons {
+public class UpdatingUserRespons {
     private String name;
     private String job;
     private String updatedAt;
 
-    public CreationUserRespons(String name, String job, String updatedAt) {
+    public UpdatingUserRespons(String name, String job, String updatedAt) {
         this.name = name;
         this.job = job;
         this.updatedAt = updatedAt;
     }
 
-    public CreationUserRespons() {
+    public UpdatingUserRespons() {
 
     }
 

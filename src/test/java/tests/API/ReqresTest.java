@@ -29,7 +29,7 @@ public class ReqresTest extends BaseTest {
     }
 
     @Test
-    public void checkCreationUser() {
-        reqres.createUserTest();
+    public void checkUpdateUser() {
+        reqres.updateUserTest();
     }
 }

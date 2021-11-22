@@ -1,14 +1,14 @@
 package api.data;
 
-public class CreationUser {
+public class UpdatingUser {
     private String name;
     private String job;
 
-    public CreationUser() {
+    public UpdatingUser() {
 
     }
 
-    public CreationUser(String name, String job) {
+    public UpdatingUser(String name, String job) {
         this.name = name;
         this.job = job;
     }
