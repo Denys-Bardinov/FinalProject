@@ -32,4 +32,15 @@ public class ReqresTest extends BaseTest {
     public void checkUpdateUser() {
         reqres.updateUserTest();
     }
+
+    @Test
+    public void checkCreationUser() {
+        reqres.createUser();
+    }
+
+    @Test
+    public void checkSingleUserNotFound() {
+        reqres.getSingleUserNotFound();
+    }
+
 }

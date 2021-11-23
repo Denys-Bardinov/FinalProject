@@ -28,9 +28,21 @@ public class Specification {
                 .build();
     }
 
+    public static ResponseSpecification responseSpecOk201() {
+        return new ResponseSpecBuilder()
+                .expectStatusCode(201)
+                .build();
+    }
+
     public static ResponseSpecification responseSpecError400() {
         return new ResponseSpecBuilder()
                 .expectStatusCode(400)
+                .build();
+    }
+
+    public static ResponseSpecification responseSpecError404() {
+        return new ResponseSpecBuilder()
+                .expectStatusCode(204)
                 .build();
     }
 

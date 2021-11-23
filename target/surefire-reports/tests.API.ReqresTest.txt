@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: tests.API.ReqresTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.282 s <<< FAILURE! - in tests.API.ReqresTest
-tests.API.ReqresTest.checkSuccesReg  Time elapsed: 3.088 s  <<< ERROR!
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.583 s <<< FAILURE! - in tests.API.ReqresTest
+tests.API.ReqresTest.checkSuccesReg  Time elapsed: 3.477 s  <<< ERROR!
 com.fasterxml.jackson.databind.exc.InvalidDefinitionException: 
 Cannot construct instance of `api.data.SuccessReg` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
  at [Source: (String)"{"id":4,"token":"QpwL5tke4Pnpja7X4"}"; line: 1, column: 2]

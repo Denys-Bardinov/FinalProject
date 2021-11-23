@@ -1,3 +1,4 @@
+api\data\UpdatingUser.class
 UI\constants\Constants$TimeoutVariable.class
 api\data\CreationUser.class
 api\Register.class
@@ -5,7 +6,7 @@ UI\pages\base\BasePage.class
 UI\common\CommonActions.class
 api\data\ColorsData.class
 api\data\UserData.class
-api\data\CreationUserRespons.class
+api\data\UpdatingUserRespons.class
 api\Reqres.class
 UI\common\Config.class
 UI\pages\alloHome\AlloHomePage.class
@@ -14,5 +15,6 @@ UI\constants\Constants.class
 UI\pages\searchResultPage\SearchResultPage.class
 api\data\UnSuccessReg.class
 api\Specification.class
+api\data\CreationUserResponse.class
 api\data\SuccessReg.class
 api\data\Register.class

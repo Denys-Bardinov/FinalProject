@@ -2,6 +2,7 @@ package api;
 
 import api.data.*;
 import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -92,4 +93,27 @@ public class Reqres {
         Assert.assertEquals("zion resident", updatingUserRespons.getJob());
     }
 
-}
+    public void createUser() {
+        Specification.installSpecification(Specification.requestSpec(URL), Specification.responseSpecOk201());
+        CreationUser user = new CreationUser("morpheus", "leader");
+        CreationUserResponse creationUserResponse = given()
+                .body(user)
+                .when()
+                .post("api/users")
+                .then().log().all()
+                .extract().as(CreationUserResponse.class);
+        Assert.assertEquals("morpheus", creationUserResponse.getName());
+    }
+
+    public void getSingleUserNotFound() {
+        Specification.installSpecification(Specification.requestSpec(URL), Specification.responseSpecError404());
+        given()
+                .when()
+                .delete("api/users/23")
+                .then().log().all();
+
+    }
+
+
+    }
+
