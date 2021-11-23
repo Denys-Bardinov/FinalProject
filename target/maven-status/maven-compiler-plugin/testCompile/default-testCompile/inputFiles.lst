@@ -1,4 +1,6 @@
 D:\FinalProject\src\test\java\tests\API\ReqresTest.java
+D:\FinalProject\src\test\java\tests\UI\base\search\SuiteSearchTest.java
+D:\FinalProject\src\test\java\tests\UI\base\search\SearchResultFacets.java
 D:\FinalProject\src\test\java\tests\API\BaseTest.java
 D:\FinalProject\src\test\java\tests\UI\base\BaseTest.java
-D:\FinalProject\src\test\java\tests\UI\base\searchPhones\SearchPhonesTest.java
+D:\FinalProject\src\test\java\tests\UI\base\search\SearchPhones.java

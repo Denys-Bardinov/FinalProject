@@ -15,10 +15,11 @@ public class AlloHomePage extends BasePage {
     @FindBy(xpath = "//*[@id='search-form__input']")
     WebElement searchFeald;
 
-    public AlloHomePage enterSearchText() {
+    public AlloHomePage enterSearchText(String searchString) {
         searchFeald.click();
-        searchFeald.sendKeys("Xiaomi");
+        searchFeald.sendKeys(searchString);
         searchFeald.sendKeys(Keys.ENTER);
         return this;
     }
+
 }

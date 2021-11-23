@@ -1,4 +1,6 @@
+tests\UI\base\search\SuiteSearchTest.class
 tests\API\BaseTest.class
 tests\UI\base\BaseTest.class
-tests\UI\base\searchPhones\SearchPhonesTest.class
+tests\UI\base\search\SearchPhones.class
 tests\API\ReqresTest.class
+tests\UI\base\search\SearchResultFacets.class
