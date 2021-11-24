@@ -1,6 +1,7 @@
 package UI.common;
 
 import org.junit.Assert;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -22,7 +23,7 @@ public class CommonActions {
             default:
                 Assert.fail("Incorrect platform or browser name " + PLATFORM_AND_BROWSER);
         }
-        driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(1900,1000));
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT));
         return driver;
     }
