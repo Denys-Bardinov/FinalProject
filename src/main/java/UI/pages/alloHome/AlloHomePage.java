@@ -24,9 +24,6 @@ public class AlloHomePage extends BasePage {
         return this;
     }
 
-    public AlloHomePage clickAuthentication() {
-        authenticationButton.click();
-        return this;
-    }
+
 
 }

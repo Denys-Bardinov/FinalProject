@@ -12,7 +12,7 @@ public class Authentication extends BaseTest {
     @Test
     public void checkWrongEmailAuthentication() {
         basePage.open(ALLO_HOME_PAGE);
-        alloHomePage.clickAuthentication();
+        loginForm.clickAuthentication();
         loginForm.enterInvalidEmail();
         close();
     }
@@ -20,7 +20,7 @@ public class Authentication extends BaseTest {
     @Test
     public void checkWrongPasswordAuthentication() {
         basePage.open(ALLO_HOME_PAGE);
-        alloHomePage.clickAuthentication();
+        loginForm.clickAuthentication();
         loginForm.enterInvalidPassword();
         close();
     }
@@ -28,7 +28,7 @@ public class Authentication extends BaseTest {
     @Test
     public void checkWValidAuthentication() {
         basePage.open(ALLO_HOME_PAGE);
-        alloHomePage.clickAuthentication();
+        loginForm.clickAuthentication();
         loginForm.validAuthentication();
         close();
     }

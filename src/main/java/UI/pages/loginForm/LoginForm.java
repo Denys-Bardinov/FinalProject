@@ -1,5 +1,6 @@
 package UI.pages.loginForm;
 
+import UI.pages.alloHome.AlloHomePage;
 import UI.pages.base.BasePage;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -26,6 +27,8 @@ public class LoginForm extends BasePage {
     WebElement divUserName;
     @FindBy(xpath = "//div[@id='account-top-name']/span")
     WebElement userName;
+    @FindBy(xpath = "//button[@class='authentication__button--login']")
+    WebElement authenticationButton;
 
     public LoginForm enterInvalidEmail() {
         emailField.click();
@@ -57,6 +60,11 @@ public class LoginForm extends BasePage {
         waitElementIsVisible(divUserName);
         String userNameValue = userName.getText();
         Assert.assertTrue(userNameValue.contains(USER_NAME));
+        return this;
+    }
+
+    public LoginForm clickAuthentication() {
+        authenticationButton.click();
         return this;
     }
 }
