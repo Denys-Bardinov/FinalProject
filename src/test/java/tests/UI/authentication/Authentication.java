@@ -10,7 +10,7 @@ import static UI.constants.Constants.Urls.ALLO_HOME_PAGE;
 public class Authentication extends BaseTest {
 
     @Test
-    public void checkWrongEmailAuthentication() {
+    public void checkWrongEmailAuthentication() throws InterruptedException {
         basePage.open(ALLO_HOME_PAGE);
         alloHomePage.clickAuthentication();
         loginForm.enterInvalidEmail();
@@ -18,7 +18,7 @@ public class Authentication extends BaseTest {
     }
 
     @Test
-    public void checkWrongPasswordAuthentication() {
+    public void checkWrongPasswordAuthentication() throws InterruptedException {
         basePage.open(ALLO_HOME_PAGE);
         alloHomePage.clickAuthentication();
         loginForm.enterInvalidPassword();
@@ -26,7 +26,7 @@ public class Authentication extends BaseTest {
     }
 
     @Test
-    public void checkWValidAuthentication() {
+    public void checkWValidAuthentication() throws InterruptedException {
         basePage.open(ALLO_HOME_PAGE);
         alloHomePage.clickAuthentication();
         loginForm.validAuthentication();
