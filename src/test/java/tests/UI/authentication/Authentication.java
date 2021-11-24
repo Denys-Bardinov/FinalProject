@@ -26,7 +26,7 @@ public class Authentication extends BaseTest {
     }
 
     @Test
-    public void checkValidAuthentication() {
+    public void checkWValidAuthentication() {
         basePage.open(ALLO_HOME_PAGE);
         alloHomePage.clickAuthentication();
         loginForm.validAuthentication();
