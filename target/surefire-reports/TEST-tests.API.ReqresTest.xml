@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.API.ReqresTest" time="7.845" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.API.ReqresTest" time="6.056" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\bardinov\.jdks\corretto-11.0.12\bin"/>
-    <property name="sun.java.command" value="C:\Users\bardinov\AppData\Local\Temp\surefire4436106786611305366\surefirebooter8044938133120035771.jar C:\Users\bardinov\AppData\Local\Temp\surefire4436106786611305366 2021-11-24T22-09-17_521-jvmRun1 surefire14749251683194672555tmp surefire_06936013717375429426tmp"/>
+    <property name="sun.java.command" value="C:\Users\bardinov\AppData\Local\Temp\surefire12695609019033405506\surefirebooter17852449072110334580.jar C:\Users\bardinov\AppData\Local\Temp\surefire12695609019033405506 2021-11-24T23-53-55_890-jvmRun1 surefire15374707693894368737tmp surefire_010821913789286718765tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\FinalProject\target\test-classes;D:\FinalProject\target\classes;C:\Users\bardinov\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\bardinov\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\bardinov\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\bardinov\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0\selenium-java-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0\selenium-api-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0\selenium-chrome-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\com\google\auto\service\auto-service-annotations\1.0\auto-service-annotations-1.0.jar;C:\Users\bardinov\.m2\repository\com\google\auto\service\auto-service\1.0\auto-service-1.0.jar;C:\Users\bardinov\.m2\repository\com\google\auto\auto-common\1.0\auto-common-1.0.jar;C:\Users\bardinov\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\bardinov\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\bardinov\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bardinov\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bardinov\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\bardinov\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\bardinov\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0\selenium-chromium-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0\selenium-json-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.0.0\selenium-devtools-v85-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v93\4.0.0\selenium-devtools-v93-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.0.0\selenium-devtools-v94-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.0.0\selenium-devtools-v95-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0\selenium-edge-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0\selenium-firefox-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0\selenium-firefox-xpi-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0\selenium-ie-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0\selenium-opera-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0\selenium-remote-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\com\beust\jcommander\1.81\jcommander-1.81.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-buffer\4.1.68.Final\netty-buffer-4.1.68.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-codec-http\4.1.67.Final\netty-codec-http-4.1.67.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-codec\4.1.67.Final\netty-codec-4.1.67.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-handler\4.1.67.Final\netty-handler-4.1.67.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-common\4.1.68.Final\netty-common-4.1.68.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-transport-native-epoll\4.1.67.Final\netty-transport-native-epoll-4.1.67.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.67.Final\netty-transport-native-kqueue-4.1.67.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.67.Final\netty-transport-native-unix-common-4.1.67.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-transport\4.1.68.Final\netty-transport-4.1.68.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-resolver\4.1.68.Final\netty-resolver-4.1.68.Final.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-api\1.6.0\opentelemetry-api-1.6.0.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-context\1.6.0\opentelemetry-context-1.6.0.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.6.0\opentelemetry-exporter-logging-1.6.0.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.6.0-alpha\opentelemetry-sdk-metrics-1.6.0-alpha.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.6.0\opentelemetry-sdk-common-1.6.0.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.6.0\opentelemetry-sdk-extension-autoconfigure-spi-1.6.0.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.6.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.6.0-alpha.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.6.0\opentelemetry-sdk-trace-1.6.0.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-api-metrics\1.6.0-alpha\opentelemetry-api-metrics-1.6.0-alpha.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.6.0\opentelemetry-sdk-1.6.0.jar;C:\Users\bardinov\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.6.0-alpha\opentelemetry-semconv-1.6.0-alpha.jar;C:\Users\bardinov\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\bardinov\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\bardinov\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bardinov\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\bardinov\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\bardinov\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\bardinov\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\bardinov\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\bardinov\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\bardinov\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0\selenium-http-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0\selenium-safari-driver-4.0.0.jar;C:\Users\bardinov\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0\selenium-support-4.0.0.jar;C:\Users\bardinov\.m2\repository\io\qameta\allure\allure-junit5\2.13.9\allure-junit5-2.13.9.jar;C:\Users\bardinov\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.9\allure-junit-platform-2.13.9.jar;C:\Users\bardinov\.m2\repository\io\qameta\allure\allure-java-commons\2.13.9\allure-java-commons-2.13.9.jar;C:\Users\bardinov\.m2\repository\io\qameta\allure\allure-model\2.13.9\allure-model-2.13.9.jar;C:\Users\bardinov\.m2\repository\org\apache\tika\tika-core\1.25\tika-core-1.25.jar;C:\Users\bardinov\.m2\repository\org\jooq\joor-java-8\0.9.13\joor-java-8-0.9.13.jar;C:\Users\bardinov\.m2\repository\io\qameta\allure\allure-test-filter\2.13.9\allure-test-filter-2.13.9.jar;C:\Users\bardinov\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.1\junit-platform-launcher-1.7.1.jar;C:\Users\bardinov\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\bardinov\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\bardinov\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bardinov\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\bardinov\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\bardinov\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\bardinov\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\bardinov\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\bardinov\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\bardinov\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\bardinov\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\bardinov\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\bardinov\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\bardinov\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\bardinov\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\bardinov\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\bardinov\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\bardinov\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\bardinov\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\bardinov\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\bardinov\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\bardinov\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\bardinov\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\bardinov\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\bardinov\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\bardinov\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\bardinov\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\bardinov\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\bardinov\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\bardinov\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\bardinov\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.2\jackson-annotations-2.12.2.jar;C:\Users\bardinov\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\bardinov\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\bardinov\AppData\Local\Temp\surefire4436106786611305366\surefirebooter8044938133120035771.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\bardinov\AppData\Local\Temp\surefire12695609019033405506\surefirebooter17852449072110334580.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.12+7-LTS"/>
@@ -61,9 +61,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="checkSuccesReg" classname="tests.API.ReqresTest" time="4.985">
+  <testcase name="checkSuccesReg" classname="tests.API.ReqresTest" time="3.229">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Wed, 24 Nov 2021 20:09:25 GMT
+Date: Wed, 24 Nov 2021 21:54:01 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 36
 Connection: keep-alive
@@ -73,10 +73,10 @@ etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FnTQSOk0wwWY%2BG3QB4%2BpiCMmTkq7YLmY2HOQK%2BirxYXObaVRfgr%2B0fYVzaM%2BvDSF%2F%2FYjz62l8TXVZjRT1Ys3914KWvLpQcVPGcl6t2udg1Y%2BjqpXPrA7FXlTXj4%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Arg%2Bl7KoIAwKxX%2Bm%2FrmipHnXa9SZcxM6ml%2FDbag%2F73iplMFiyxoOLphU5Qo02z%2Fnh38UfJzye%2FTw6dWwa7DuX0Pe3mdAst4dZlK%2FVzKp3MV0335x0O0OmSUyxmM%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6b35465e8c213f04-KBP
+CF-RAY: 6b35df968e0f1687-DME
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
@@ -85,9 +85,9 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkUnsuccessReg" classname="tests.API.ReqresTest" time="0.329">
+  <testcase name="checkUnsuccessReg" classname="tests.API.ReqresTest" time="0.295">
     <system-out><![CDATA[HTTP/1.1 400 Bad Request
-Date: Wed, 24 Nov 2021 20:09:26 GMT
+Date: Wed, 24 Nov 2021 21:54:02 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 28
 Connection: keep-alive
@@ -97,10 +97,10 @@ etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TxtUD%2FnQEFgZRMziK1GZxE3zL88FBYlcHf9HK8eTVZDCbs80vehHBLHv90n8tCLyn4rtcd2Gpsq6SU1e%2Fega3YAhdM7rz0vXSKJY488sSELGM6nOgmfbUK0Vyfc%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lN8MqrW354tT%2BlHLZpaLZsy8H1zDUwUjN2aFqV7PYJdz90ZBFp6bt2ULSfdcc3MR1mIMn3CURN42XlYB%2BEZSnbLW0GMHMP%2BfJuUUU%2F6MEyn7TWz9FKffKCVlLoY%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6b354663896624bd-KBP
+CF-RAY: 6b35df9b79c01494-DME
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
@@ -108,35 +108,35 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkCreationUser" classname="tests.API.ReqresTest" time="0.329">
+  <testcase name="checkCreationUser" classname="tests.API.ReqresTest" time="0.268">
     <system-out><![CDATA[HTTP/1.1 201 Created
-Date: Wed, 24 Nov 2021 20:09:26 GMT
+Date: Wed, 24 Nov 2021 21:54:02 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 83
 Connection: keep-alive
 x-powered-by: Express
 access-control-allow-origin: *
-etag: W/"53-C5E/lIRnIwWhqCsJwIEl86wuB+0"
+etag: W/"53-L+RpWyklTrBV/gIB999dZSrp484"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RqRtYTXhNcRaLhifuypYRJSNTM8Ij2doE1JTQn0lcloj9zJWW8bm1QlXBn6n017WXV2ktFDzLPlNP4bjKcVkUxCUGnOL3g4iYMoFgtUCn0TehqnRaKIqU7ZMx1w%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EGQpBf%2BdKW2CawQVKZYtPDVo7Rnmnv3v%2BMuyqtpS37tCW3h%2BqgWD43yTRv3EF5lqwEQ48YDPunW%2Fup9X%2B6I4g8I09k51cokdqk31ghOIHsIMN%2FIyRl7xWyfvUi4%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6b354665bd7e3268-KBP
+CF-RAY: 6b35df9d6b834d8c-DME
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
     "name": "morpheus",
     "job": "leader",
-    "id": "58",
-    "createdAt": "2021-11-24T20:09:26.831Z"
+    "id": "13",
+    "createdAt": "2021-11-24T21:54:02.567Z"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkUserNameAndAvatar" classname="tests.API.ReqresTest" time="1.029">
+  <testcase name="checkUserNameAndAvatar" classname="tests.API.ReqresTest" time="1.021">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Wed, 24 Nov 2021 20:09:27 GMT
+Date: Wed, 24 Nov 2021 21:54:02 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -146,13 +146,13 @@ etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 3886
+Age: 2522
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b51fNqxfLjNJNbb0VivdETgDhpcvKrgM2pBmQu%2BoYrKptEKpFFU34uH6ziqCHkv289ZlqeFT7EuGvkfbv2ex0PgaXitMTkQ6iD2iDrH9lbTwh495ZXSEia01XQs%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sUZCVM77Ogd0RyKfGKeywg2u9pftgcaFoS0FN8CXJJD5q4wDA6EYbox3BMuId70vIw1YVj91xS25BrgKxgvSAvU%2F79NeRAb1TgNQJXrUnUT0ZNv04XGSX5DGTzU%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 6b354667fe2977aa-KBP
+CF-RAY: 6b35df9f8a990c54-DME
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
@@ -212,9 +212,9 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkSortedYears" classname="tests.API.ReqresTest" time="0.319">
+  <testcase name="checkSortedYears" classname="tests.API.ReqresTest" time="0.301">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Wed, 24 Nov 2021 20:09:28 GMT
+Date: Wed, 24 Nov 2021 21:54:03 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -225,11 +225,11 @@ via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: REVALIDATED
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ebrL3%2BxnticY0cr%2By4gLjnoC3ANbaDa38a1nWrh67cud6aZhVLxoxlL0Yo3CQROoyCFOVx42GPjQ3%2FNi9bf1BIyAhAhgmIS73mih6%2F9AUX8XS02zv5O%2F96f9rW0%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2XGSz4f9mV6T9Z7e1M77YATDjv6bEK8pRTtOU5IovLfmk7iAUQrt6x6Hm%2BmiByQGLJSlWipErXRGv8ome2Sz3AFGMyrynPdQtgFdYeO297qwDjbunHurVZh85Rs%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 6b35466e2bbd2d43-KBP
+CF-RAY: 6b35dfa59df17b53-DME
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
@@ -289,9 +289,9 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkDeletingUser" classname="tests.API.ReqresTest" time="0.267">
+  <testcase name="checkDeletingUser" classname="tests.API.ReqresTest" time="0.315">
     <system-out><![CDATA[HTTP/1.1 204 No Content
-Date: Wed, 24 Nov 2021 20:09:28 GMT
+Date: Wed, 24 Nov 2021 21:54:04 GMT
 Content-Length: 0
 Connection: keep-alive
 x-powered-by: Express
@@ -300,43 +300,43 @@ etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0Q6QMQ4SYqf8E%2Bmg0Jo9gnkE%2BZeBZK%2BXsj67DjescZ2hh%2F76X%2FAz9JF58ljCNAwy%2FMvbBezTS4IpE6MdE2m0EY%2BjmBT%2Faz1koCR0iJ%2BG%2FdpyvlSkP2u5jLgNDT0%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p%2FeUR7ljPSLqml3SrM41jycNN5BRajlMtS4hKy2oQ9tJaNqo7ig9S%2Bb1yqUg4kFec2yI%2BtEY1x4rHmhxRNiXk7V1HKLWPnHGVJAClwAFPlfjOE4jtuu71%2F4MqAo%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6b3546703a4e2492-KBP
+CF-RAY: 6b35dfa7bdd916c7-DME
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 ]]></system-out>
   </testcase>
-  <testcase name="checkUpdateUser" classname="tests.API.ReqresTest" time="0.212">
+  <testcase name="checkUpdateUser" classname="tests.API.ReqresTest" time="0.253">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Wed, 24 Nov 2021 20:09:28 GMT
+Date: Wed, 24 Nov 2021 21:54:04 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 x-powered-by: Express
 access-control-allow-origin: *
-etag: W/"50-Mxcb0YhZyvPMr6tkOcTKjdonuLc"
+etag: W/"50-mj4O3yo4qeSy4U8+HxxvwgKEs/c"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FKNZlsexB00x%2BsqTYJnz2iyN4Za4a4sLr7O4zZpLtA6wINAcDablfEs6y1yk4NVY%2BshweS%2F8D4FVKO67FE7w8KByFIorouOVW6kOJW9p%2FwXcSZB%2FDjX43Ld53X4%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gytj5Ro%2Fdv4W2sH4YwL4BeyiiMEhDHJquqwCF7hENT7PoitWzB5Xterf70i%2FGqkHBpmYOIIWEB%2Bqr1QiasDYbT9SbiHx61%2Bu2PMzXx87ROZC1h7WMeHkZMvhlFw%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 6b35467188f724c5-KBP
+CF-RAY: 6b35dfa968268e4d-DME
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
     "name": "morpheus",
     "job": "zion resident",
-    "updatedAt": "2021-11-24T20:09:28.670Z"
+    "updatedAt": "2021-11-24T21:54:04.486Z"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="checkSingleUserNotFound" classname="tests.API.ReqresTest" time="0.233">
+  <testcase name="checkSingleUserNotFound" classname="tests.API.ReqresTest" time="0.24">
     <system-out><![CDATA[HTTP/1.1 204 No Content
-Date: Wed, 24 Nov 2021 20:09:28 GMT
+Date: Wed, 24 Nov 2021 21:54:04 GMT
 Content-Length: 0
 Connection: keep-alive
 x-powered-by: Express
@@ -345,10 +345,10 @@ etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vzdkyoiU4wLs6TtDuZC863BfJLsO%2B1n58Jh6LVvpqgjL2E9v1xt2Rgceog69%2BfIa%2FUeyxDGrsdq9RHor%2FHXDywrEJGJz6MhxXbuL3Bbad1Bj1wDhDmEDfFne0yI%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cNvpyNla5sbDwf1w9fjRG6NBVZQPjvgKoAsct8ub4Wowx5YbYzn99bLt6e0EzMi5n1bvUa6o%2Fq76KEcEPHqPOAMXBPtqnoNU0WJAscKsV%2FC9LuUf4V3ObfjQU6c%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6b354672fd562dea-KBP
+CF-RAY: 6b35dfaafd5b7a69-DME
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 ]]></system-out>
   </testcase>

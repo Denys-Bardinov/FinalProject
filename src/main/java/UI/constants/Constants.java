@@ -19,4 +19,9 @@ public class Constants {
         public static final String USER_NAME = "Emre";
 
     }
+
+    public static class Events {
+        public static final Integer PROMO_LIST = 9;
+        public static final Integer PROMO_LIST_ITEM = 6;
+    }
 }
