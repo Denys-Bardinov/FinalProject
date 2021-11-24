@@ -27,7 +27,7 @@ public class LoginForm extends BasePage {
     WebElement divUserName;
     @FindBy(xpath = "//div[@id='account-top-name']/span")
     WebElement userName;
-    @FindBy(xpath = "//button[@class='authentication__button--login']")
+    @FindBy(xpath = "//*[@id=\"__layout\"]/div/div[1]/div[1]/div[3]/div/ul/li[5]/div/div/button[1]")
     WebElement authenticationButton;
 
     public LoginForm enterInvalidEmail() {
