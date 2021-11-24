@@ -25,7 +25,6 @@ public class AlloHomePage extends BasePage {
     }
 
     public AlloHomePage clickAuthentication() {
-        waitElementIsVisible(authenticationButton);
         authenticationButton.click();
         return this;
     }
