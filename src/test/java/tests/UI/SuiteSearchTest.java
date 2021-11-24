@@ -9,6 +9,6 @@ import tests.UI.search.SearchResultFacets;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({SearchPhones.class, SearchResultFacets.class, Authentication.class})
-public class FinalSuitTest {
+public class SuiteSearchTest {
 
 }

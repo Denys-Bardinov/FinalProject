@@ -24,9 +24,9 @@ public class AlloHomePage extends BasePage {
         return this;
     }
 
-    public AlloHomePage clickAuthentication() throws InterruptedException {
-Thread.sleep(5000);
-    authenticationButton.click();
+    public AlloHomePage clickAuthentication() {
+        waitElementIsVisible(authenticationButton);
+        authenticationButton.click();
         return this;
     }
 
