@@ -1,6 +1,7 @@
 package tests.UI.base;
 
 import UI.common.CommonActions;
+import UI.pages.loginForm.LoginForm;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import UI.pages.alloHome.AlloHomePage;
@@ -10,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import tests.UI.authentication.Authentication;
 
 import static UI.constants.Constants.TimeoutVariable.EXPLICIT_WAIT;
 
@@ -18,11 +20,10 @@ public class BaseTest {
     protected BasePage basePage = new BasePage(driver);
     protected AlloHomePage alloHomePage = new AlloHomePage(driver);
     protected SearchResultPage searchResultPage = new SearchResultPage(driver);
+    protected LoginForm loginForm = new LoginForm(driver);
 
 
-    public void waitElementIsVisible() throws InterruptedException {
-        Thread.sleep(10000);
-    }
+
 
     protected void close() {
         driver.close();

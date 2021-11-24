@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tests.UI.FinalSuitTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 78.635 s - in tests.UI.FinalSuitTest

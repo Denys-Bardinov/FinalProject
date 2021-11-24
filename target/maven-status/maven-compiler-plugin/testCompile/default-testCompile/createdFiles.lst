@@ -1,6 +1,7 @@
-tests\UI\base\search\SuiteSearchTest.class
 tests\API\BaseTest.class
-tests\UI\base\BaseTest.class
-tests\UI\base\search\SearchPhones.class
 tests\API\ReqresTest.class
-tests\UI\base\search\SearchResultFacets.class
+tests\UI\search\SearchResultFacets.class
+tests\UI\base\BaseTest.class
+tests\UI\search\SearchPhones.class
+tests\UI\FinalSuitTest.class
+tests\UI\authentication\Authentication.class

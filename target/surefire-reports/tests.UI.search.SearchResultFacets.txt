@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: tests.UI.search.SearchResultFacets
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.536 s - in tests.UI.search.SearchResultFacets
