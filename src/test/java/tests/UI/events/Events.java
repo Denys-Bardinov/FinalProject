@@ -9,7 +9,6 @@ import static UI.constants.Constants.Urls.ALLO_HOME_PAGE;
 public class Events extends BaseTest {
 
 
-    @Attachment(value = "{0}", type = "image/png")
     @Test
     public void checkPromoListCountEvents() {
         basePage.open(ALLO_HOME_PAGE);

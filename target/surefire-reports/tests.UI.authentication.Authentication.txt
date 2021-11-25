@@ -1,4 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: tests.UI.authentication.Authentication
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.917 s - in tests.UI.authentication.Authentication
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 31.191 s <<< FAILURE! - in tests.UI.authentication.Authentication
+tests.UI.authentication.Authentication.checkWValidAuthentication  Time elapsed: 21.123 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='account-top-name']' (tried for 10 second(s) with 500 milliseconds interval)
+	at tests.UI.authentication.Authentication.checkWValidAuthentication(Authentication.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='account-top-name']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'BARDINOV', ip: '10.10.54.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb454c48e91a27a81190815d5baf6deb, findElement {using=xpath, value=//div[@id='account-top-name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\bardinov\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55988/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb454c48e91a27a81190815d5baf6deb
+	at tests.UI.authentication.Authentication.checkWValidAuthentication(Authentication.java:32)
+
