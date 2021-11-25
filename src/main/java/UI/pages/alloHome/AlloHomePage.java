@@ -14,7 +14,7 @@ public class AlloHomePage extends BasePage {
 
     @FindBy(xpath = "//*[@id='search-form__input']")
     WebElement searchFeald;
-    @FindBy(xpath = "//li[@class='allo-programs__item'][5]")
+    @FindBy(xpath = "//li[@class='allo-program__item'][5]")
     WebElement eventButton;
 
 
