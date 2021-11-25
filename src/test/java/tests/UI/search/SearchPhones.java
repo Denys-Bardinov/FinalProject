@@ -11,7 +11,6 @@ public class SearchPhones extends BaseTest {
     public void checkListSearchResult() {
         basePage.open(ALLO_HOME_PAGE);
         alloHomePage.enterSearchText("Xiaomi");
-
         searchResultPage.matchSearchResult();
         close();
     }
